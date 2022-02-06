@@ -1,0 +1,189 @@
+
+/* ----- Responsive Css File ----- */
+
+
+@media screen and (max-width: 576px){
+
+    /* ----- Navigation start----- */
+
+    /* navigation-1 */
+    .navigation-1{
+        display: none;
+    }
+
+    /* navigation-2 */
+    .navbar-light .navbar-toggler {
+        color: #000 !important;
+        border-color: 2px solid #000 !important;
+    }
+    .n-cart{
+        display: none;
+    }
+    .navigation-2 li{
+        text-align: center;
+    }
+
+    /* ----- Navigation end ----- */
+
+
+
+    /* ----- Hero Section with carousel  start ----- */
+
+    .text-85{
+        padding-bottom: 5px;
+        text-align: left;
+    }
+    .hero h2{
+        font-size: 25px;
+    }
+    .text-85 p{
+        padding: 5px 0;
+        font-size: 14px;
+    }
+    .btn1{
+        font-size: 10px;
+        font-weight: 600;
+        color: #fff;
+        padding: 8px 8px;
+        border: 1px solid #fff;
+        margin-right: 8px;
+    }
+    .btn2{
+        font-size: 10px;
+        font-weight: 600;
+        color: #fff;
+        
+        padding: 8px 8px;
+        border: 1px solid #ff1949;
+    }
+
+    /* ----- Hero Section with carousel end ----- */
+
+
+    /* ----- text & img box start  ----- */
+
+    /* text-1 */
+    .text-and-box-1-1{
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 60px;
+        padding-left: 120px;
+        margin-bottom: 10px;
+    }
+    .text-and-box-1-1 h2{
+        font-size: 25px;
+        text-align: left;
+        padding-top: 40px;
+    }
+    .t-btn-1{
+        font-size: 12px;
+    }
+    .img-1{
+        margin-bottom: 10px;
+    }
+
+    /* text-2 */
+
+    .img-2{
+        margin-bottom: 10px;
+    }
+    .text-and-box-2-1{
+        background-color: #c8d6e5;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 60px;
+        padding-left: 120px;
+    }
+    .text-and-box-2-1 h2{
+        font-size: 25px;
+        text-align: left;
+        padding-top: 40px;
+    }
+    .t-btn-2{
+        font-size: 12px;
+    }
+
+
+    /* ----- text & img box end  ----- */
+
+
+    /* ----- professionals start ----- */
+
+    .text-pro-1{
+        padding-left: 40px;
+    }
+    .text-pro-1 h2{
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    .text-pro-1 p{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .team-1-2 h5{
+        font-size: 16px;
+        color: #000;
+        transition: 0.5s;
+    }
+    cite{
+        font-size: 12px;
+    }
+    /* ----- professionals end ----- */
+    .tour-1 h2{
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    .tour-1 p{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    /* ----- contact start ----- */
+
+    .contact{
+        background-color: #000 !important;
+        width: 100%;
+        height: auto;
+        padding: 0 15px;
+    }
+    .contact-text{
+        display: none;
+    }
+    .contact-form{
+        width: 100%;
+        height: auto;
+        background-color: #b6b6b6;
+        text-align: left;
+        padding: 10px !important;
+    }
+    .contact-form h2{
+        font-size: 18px;
+    }
+
+    input{
+        width: 100%;
+    }
+    placeholder{
+        font-size: 12px;
+    }
+    .con-btn{
+        padding: 8px 15px;
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+
+    /* ----- contact end ----- */
+
+
+
+
+    /* ----- footer start ----- */
+
+    .f-social{
+        padding-left: 140px;
+    }
+
+    /* ----- footer end ----- */
+
+}
